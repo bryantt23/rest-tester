@@ -4,16 +4,16 @@ class UsersController < ApplicationController
       @name = "I am the Index action!"
     end
 
-  def new_user                                   
-      @name = "I am the new_user action!"
+  def edit
+      @name = "I am the edit action!"
     end
     
-  def edit_user
-      @name = "I am the edit_user action!"
+  def new                                   
+      @name = "I am the new action!"
     end
     
-  def user 
-      @name = "I am the get user action!"
+  def show 
+      @name = "I am the show action!"
     end
 
 end
